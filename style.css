@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #674baf;
+  background-image: url("images/bg-desktop.svg");
+  background-size: cover;
+}
+
+.logo {
+  padding-top: 7rem;
+  padding-left: 7rem;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container .first {
+  width: 50%;
+  padding: 7rem;
+}
+.container .first img {
+  width: 100%;
+}
+.container .second {
+  padding: 7rem;
+  color: white;
+  width: 50%;
+}
+.container .second .about-title {
+  font-size: 4rem;
+  width: 65%;
+  padding-top: 5rem;
+  font-family: "Poppins", sans-serif;
+}
+.container .second .about-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  width: 75%;
+  line-height: 3.4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.container .second .register-button {
+  width: 22rem;
+  height: 6rem;
+  background: white;
+  color: #674baf;
+  -webkit-box-shadow: 13px 16px 37px -14px rgba(0, 0, 0, 0.72);
+  -moz-box-shadow: 13px 16px 37px -14px rgba(0, 0, 0, 0.72);
+  box-shadow: 13px 16px 37px -14px rgba(0, 0, 0, 0.72);
+  border-radius: 4rem;
+  font-size: 1.4rem;
+}
+
+/*# sourceMappingURL=style.css.map */
